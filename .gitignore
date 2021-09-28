@@ -1,0 +1,8 @@
+udagram-api-feed/node_modules
+udagram-api-feed/.env
+udagram-api-user/node_modules
+udagram-api-user/.env
+udagram-frontend/node_modules
+udagram-frontend/.env
+
+set_env.sh
