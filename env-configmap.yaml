@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: udagram-config
+data:
+  URL: http://localhost:8100
+  POSTGRES_HOST: chukwuka-db.cwdhm210ier2.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: chukwuka
+  AWS_BUCKET: arn:aws:s3:::project-783156532871-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: chukwuka
