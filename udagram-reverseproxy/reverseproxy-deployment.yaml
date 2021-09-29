@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: reverseproxy
-          image: chukwukaemi/reverseproxy:v3
+          image: chukwukaemi/reverseproxy:v4
           ports:
             - containerPort: 8080

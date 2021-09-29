@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: udagram-frontend
-          image: chukwukaemi/udagram-frontend:v2
+          image: chukwukaemi/udagram-frontend:v3
           ports:
             - containerPort: 8100
