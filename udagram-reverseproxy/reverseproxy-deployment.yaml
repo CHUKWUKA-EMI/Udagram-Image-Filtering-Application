@@ -5,7 +5,7 @@ metadata:
   labels:
     app: reverseproxy
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: reverseproxy
@@ -17,5 +17,12 @@ spec:
       containers:
         - name: reverseproxy
           image: chukwukaemi/reverseproxy:v4
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "500m"
+            limits:
+              memory: "1024Mi"
+              cpu: "500m"
           ports:
             - containerPort: 8080
